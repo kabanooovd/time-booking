@@ -1,0 +1,61 @@
+.day_enabled__container {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 63px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3988ff;
+  border-radius: 10px;
+}
+
+.chosen_day_enabled__container {
+  background-color: transparent;
+  cursor: pointer;
+  width: 63px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3988ff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.day_disabled__container {
+  background-color: transparent;
+  cursor: pointer;
+  width: 63px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.enabled_month {
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.enabled_week_day {
+  color: #7e7d7d;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 1px 0;
+}
+
+.enabled_month_day {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 400;
+}
